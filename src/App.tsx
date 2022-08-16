@@ -1,32 +1,24 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-
+// - Start a new project✅
+// - Create components, similar to the Button component Nico built during the lecture. ✅
+//   - Button: should return a button styled however you like. Make it use a few useful custom props similar to how Nico used them during the lecture - like size or variant.
+//     - Input: returns a label and an input under it, both customizable.
+//   - CheckboxGroup: a group of checkboxes. The component should take:
+//     - an array of items and render a list of checkboxes based on them. (Think what should go into the array!)
+//     - an onSelect: selecting a checkbox should run the function. Make sure you can check which checkbox you selected.
+//     - RadioGroup: A group of radio buttons. Same idea as the checkbox group:
+//         - takes a list of items and renders radio buttons for each of them
+//     - onSelect which runs the function we pass to the component.
+// - Test your components by using them in App and giving them some test data.
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <button>Back</button>
+      
     </div>
   )
 }
