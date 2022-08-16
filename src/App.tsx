@@ -18,7 +18,8 @@ function App() {
   return (
     <div className="App">
       <button>Back</button>
-      
+      <input type="submit" />
+      <input type="checkbox"/>
     </div>
   )
 }
