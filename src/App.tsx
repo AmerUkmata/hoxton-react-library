@@ -14,11 +14,30 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <button onClick={()=> {
+      <button onClick={() => {
         alert("You can't go back on life so live it sa much as you can...")
       }}>Back</button>
-      <input type="submit" />
-      <input type="checkbox"/>
+      <input type="submit" onClick={() => {
+        alert("You broked your oun hart no one else did so just focuse on your self")
+      }} />
+      <ul>
+        <input type="checkbox" onSelect={() => {
+         alert('do not get trolled')
+        }} />
+        <input type="checkbox" onSelect={() => { 
+         alert('I SEAD do not get trolled')
+        }} />
+        <input type="checkbox" onSelect={() => { 
+         alert('if you select the others you will get trolled')
+        }} />
+        <input type="checkbox" onSelect={() => { 
+         alert('your LAST CHANSE')
+        }} />
+        <input type="checkbox" onSelect={() => { 
+          alert('got to go sleep to late to change enything')
+        }} />
+      </ul>
+
     </div>
   )
 }
