@@ -14,7 +14,9 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <button>Back</button>
+      <button onClick={()=> {
+        alert("You can't do back on life so live it sa much as you can...")
+      }}>Back</button>
       <input type="submit" />
       <input type="checkbox"/>
     </div>
