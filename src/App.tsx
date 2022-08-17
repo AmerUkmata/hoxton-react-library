@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 // - Start a new project✅
@@ -13,8 +12,6 @@ import './App.css'
 //     - onSelect which runs the function we pass to the component.
 // - Test your components by using them in App and giving them some test data.
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <button>Back</button>
